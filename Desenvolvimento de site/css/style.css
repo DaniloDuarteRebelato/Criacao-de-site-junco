@@ -1,11 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 *{
   margin: 0px;
 }
-
-
- 
-
-
 
 .hero>img{
   width: 100%;
@@ -19,8 +16,6 @@
   
 }
 
-
-
 /* Estilo do cabeçalho */
 header {
   display: flex;
@@ -29,6 +24,7 @@ header {
   background-color: #0f2e2d;
   padding: 20px 40px;
   color: white;
+  width: 193,3vh;
 }
 
 .logo {
@@ -52,20 +48,23 @@ header {
 }
 
 .texto-foda {
-  
+  margin-top: 100px ;
   background-size: cover;
   padding: 80px 20px;
   color: white;
-  margin-left: 160px;
+  margin-left: -190 px;
+  margin-right: 466px;
+  display: flex;
+  font-family: 'Onest';
 }
 
 .testeabacaxi {
-  display: flex;
-  
+  display: flex;  
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .textoabacaxi {
@@ -74,7 +73,7 @@ header {
 }
 
 .textoabacaxi h1 {
-  font-size: 2.8rem;
+  font-size: 3.0rem;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -109,5 +108,45 @@ header {
 
 
 .imagem-fundo{
-  background-image: url("../img/cd926ef74ddfc37891aaff78871b25bb04bcec85.jpg");
+  background:
+  linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)),
+   url("../img/cd926ef74ddfc37891aaff78871b25bb04bcec85.jpg");
+  width: 203,4vh;
+  height: 85vh;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+}
+
+.imagem2{
+  height: 95vh;
+  width: 750px;
+  object-fit: cover;
+  object-position: top;
+  justify-content: space-between;
+}
+
+.pag2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2B2D3D;
+}
+
+.titulopg2{
+  font-family: 'Onest';
+  color: #00d271;
+  font-size: 35px;
+  margin-left: 120px;
+  margin-top: 160px;
+
+}
+
+.pag2 p{
+  color: white;
+  margin-top: 10px;
+  margin-right: 160px;
+  margin-left: 120px;
+  font-family: 'Onest';
+  font-size: 18px;
 }
