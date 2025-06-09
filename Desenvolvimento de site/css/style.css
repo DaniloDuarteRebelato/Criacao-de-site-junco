@@ -119,34 +119,138 @@ header {
   background-position: center;
 }
 
-.imagem2{
-  height: 95vh;
-  width: 750px;
+html {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1f29;
+  color: #fff;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
   object-fit: cover;
-  object-position: top;
-  justify-content: space-between;
 }
 
-.pag2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #2B2D3D;
+.right {
+  flex: 1;
+  background-color: #2b2d3a;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.titulopg2{
-  font-family: 'Onest';
-  color: #00d271;
-  font-size: 35px;
-  margin-left: 120px;
-  margin-top: 160px;
-
+.highlight {
+  color: #39d353;
+  font-size: 2rem;
 }
 
-.pag2 p{
-  color: white;
-  margin-top: 10px;
-  margin-right: 160px;
-  margin-left: 120px;
-  font-family: 'Onest';
-  font-size: 18px;
+.description {
+  font-size: 1rem;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.benefits {
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.benefits li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.cta-button {
+  background-color: #39d353;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2ca745;
+}
+
+.quick-wins-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff7f0;
+  padding: 60px 40px;
+  gap: 60px;
+}
+
+.quick-wins-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.quick-wins-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.quick-img {
+  max-width: 500px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.highlight-orange {
+  color: #f97316;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quote {
+  font-weight: bold;
+  margin: 20px 0 10px;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.orange-button {
+  padding: 12px 20px;
+  border: 1px solid #f97316;
+  color: #f97316;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.orange-button:hover {
+  background-color: #f97316;
+  color: #fff;
 }
